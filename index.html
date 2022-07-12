@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <legend>Contact us</legend>
+<fieldset>
+<div class="wrapper">
+<form>
+  <div>
+  <label for="fname">First Name (required)</label><br>
+  <input required type="text" id="fname" name="firstname">
+  </div>
+  <button>Save</button>
+</form>
+</div>
+  
+<div class="wrapper">
+<form>
+  <div>
+  <label for="lname">Last Name (required)</label><br>
+  <input required type="text" id="lname" name="lastname">
+  </div>
+  <button>Save</button>
+</form>
+</div>
+
+<div class="wrapper">
+<form>
+  <div>
+  <label for="email">Email (required)</label><br>
+  <input required type="text" id="email" name="email">
+  </div>
+  <button>Save</button>
+</form>
+</div>
+
+<div class="wrapper">
+<form>
+  <div>
+  <label for="start">Date:</label><br>
+  <input type="date" id="start" name="trip-start" value="2022-07-12" min="2022-07-01" max="2022-12-31">
+  </div>
+  <button>Save</button>
+</form>
+</div>
+
+<div class="wrapper">
+<form>
+  <div>
+  <label for="start">Date:</label><br>
+  <input type="date" id="start" name="trip-start" value="2022-07-12" min="2022-07-01" max="2022-12-31">
+  </div>
+  <button>Save</button>
+</form>
+</div>
+  
+  <div class="wrapper">
+<form>
+  <div>
+  <label for="borough">Borough</label><br>
+  <select id="borough" name="borough>
+   <option value="brooklyn">Brookyln</option>
+     <option value="queens">Queens</option>
+     <option value="manhattan">Manhattan</option>
+      <option value="statenisland">Staten Island</option>
+      <option value="longisland">Long Island</option>
+  </div>
+</form>
+</div>
+   
+ <div class="wrapper">
+<form>
+  <div>
+  <label for="message">Message</label>
+   <textarea id="message" name="message" placeholder="Write something.." style="height":200px"></textarea>
+    <input type="submit" value="Submit">
+  </div>
+</form>
+</div>
+  
+  <div class="wrapper">
+<form>
+  <div>
+  <label for="testedforcovid">Check box if tested for covid</label><br>
+  <input type="checkbox" id="testedforcovid" name="testedforcovid">
+  </div>
+</form>
+</div>
+  
+  <p>Select a language</p>
+  <div class="wrapper">
+  <form>
+    <div>
+  <input type="radio" id="english" name="pref_language" value="english">
+  <label for="english">English</label><br>
+  
+      <input type="radio" id="Spanish" name="pref_language" value="Spanish">
+  <label for="css">Spanish</label><br>
+  
+      <input type="radio" id="other" name="pref_language" value="other">
+  <label for="other">Other</label>
+</form>
+    </div>                                                    
+  </fieldset>  
+   <button>Submit</button>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
